@@ -1,19 +1,47 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> RKMVC </title>
 <style>
 body
 {
   background-color:ffb380;
 }  
-  @media screen and (min-width:1000px)
+.on
 {
- .button
+ background-image:linear-gradient(rgba(255,0,0,0.5),rgb(35,35,35)); 
+background-color:red; 
+color:white;
+width:100%;
+text-align:center;
+height:7%;
+cursor:pointer;
+border:none;
+}
+.on:hover
  {
-   width:75%;
+    background-color:rgba(190,0,0,0.3); 
+ }
+@media screen and (min-width:800px)
+{
+ .on
+ {
+    background-image:linear-gradient(rgba(255,0,0,0.5),rgb(35,35,35)); 
+	color:white;
+	width:50%;
+	margin:auto auto 20px 310px;
+	text-align:center;
+	height:7%;
+    border-radius:10px;
+	cursor:pointer;
+	border:none;
+ }
+ .on:hover
+ {
+    background-color:rgba(190,0,0,0.3); 
  }
 } 
+   
 </style>
 </head>
 <body>
@@ -25,8 +53,9 @@ body
 </header>
 <section>
 <h1 style="text-align:center"><strong></strong></h1>
-<a href="my class link.html"><button class="button" style="background-color:red; color:white;width:100%;text-align:center;height:7%;cursor:pointer;border:none;">III B.Sc (C.S)</button></a>
+<a href="my class link.html"><button class="on">III B.Sc (C.S)</button></a>
 &nbsp;
-<a href="my class link.html"><button class="button" style="background-color:red; color:white;width:100%;text-align:center;height:7%;cursor:pointer;border:none;">III B.Ca (C.A)</button></a>
-
-
+<a href="my class link.html"><button class="on">III B.Ca (C.A)</button></a>
+</section>
+</body>
+</html>
