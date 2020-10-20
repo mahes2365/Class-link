@@ -52,12 +52,45 @@
             margin-bottom: 40px;
         }
         
+        @keyframes rpk {
+            10% {
+                border: 5px solid red;
+                border-radius: 5px;
+            }
+            45% {
+                border: 5px solid rgb(216, 47, 17);
+                border-radius: 10px;
+            }
+            45% {
+                border: 5px solid rgb(58, 54, 54);
+                border-radius: 15px;
+            }
+        }
+        
         .Rpk-sir {
             border: 5px solid red;
             border-radius: 5px;
             padding: 15px 20px 15px 20px;
             text-align: justify;
             margin-bottom: 10px;
+            animation: rpk;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes kkr {
+            10% {
+                border: 5px solid red;
+                border-radius: 5px;
+            }
+            45% {
+                border: 5px solid rgb(216, 55, 15);
+                border-radius: 10px;
+            }
+            45% {
+                border: 5px solid rgb(58, 54, 54);
+                border-radius: 15px;
+            }
         }
         
         .Kkr-sir {
@@ -65,6 +98,9 @@
             border-radius: 5px;
             padding: 15px 20px 15px 20px;
             text-align: justify;
+            animation: kkr;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
         
         .col-2 {
@@ -76,9 +112,6 @@
                 float: left;
             }
             .col-5 {
-                display: none;
-            }
-            .Rpk-sir {
                 display: none;
             }
             .col-1 {
@@ -95,6 +128,23 @@
                 border-radius: 5px;
                 padding: 3px 10px 3px 10px;
                 text-align: justify;
+                animation: Rpk;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes Rpk {
+                10% {
+                    border: 5px solid red;
+                    border-radius: 5px;
+                }
+                45% {
+                    border: 5px solid rgb(216, 55, 15);
+                    border-radius: 10px;
+                }
+                45% {
+                    border: 5px solid rgb(58, 54, 54);
+                    border-radius: 15px;
+                }
             }
             .kkr-sir {
                 border: 5px solid red;
@@ -102,6 +152,23 @@
                 padding: 3px 10px 3px 10px;
                 text-align: justify;
                 margin-left: 5px;
+                animation: Kkr;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes Kkr {
+                10% {
+                    border: 5px solid red;
+                    border-radius: 5px;
+                }
+                45% {
+                    border: 5px solid rgb(216, 55, 15);
+                    border-radius: 10px;
+                }
+                45% {
+                    border: 5px solid rgb(58, 54, 54);
+                    border-radius: 15px;
+                }
             }
             .row::after {
                 clear: both;
@@ -156,6 +223,7 @@
                         <p><b>Rules:</b> Minimum 3 pages per assignment.</p>
                         <p><b>Submission:</b> 26/10/2020.</p>
                         <p><b>Submission To:</b> Class Asst.representatives.</p>
+                        <button><a href="mailto:mrjofficial20@gmail.com"></a></button>
                     </div>
                     <div class="col-5 Kkr-sir">
                         <h4>Subject: Mobile Application Development Using Android.</h4>
@@ -214,4 +282,4 @@
         </div>
     </body>
 
- </html>
+</html>
