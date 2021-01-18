@@ -5,9 +5,12 @@
     <title>My class link</title>
     <style>
         .body {
-            background-color: white;
+           background-color:rgba(255,220,180,0.8);
         }
-        
+        .img{
+		  width:30%;
+		  height:30%;
+		}
         a {
             color: black;
             text-decoration: none;
@@ -16,7 +19,9 @@
             cursor: pointer;
             padding-left: 10px;
         }
-        
+      a:focus{
+	       border:2px solid red;
+	  }
         .h1 {
             font-size: 5vw;
             text-align: center;
@@ -49,6 +54,10 @@
         }
        
         @media screen and (min-width:1000px) {
+		.img{
+		  width:15%;
+		  height:15%;
+		}
              a {
                 font-size: 20px;
                 padding-left: 10px;
@@ -80,41 +89,48 @@
 
     <body>
         <header style="text-align:center">
-            <img src="logo.png" alt="symbol of RKMVC">
-            <h1>RAMAKRISHNA MISSION VIDYAPITH</h1>
+            <img src="logo.png" alt="symbol of RKMVC"  class="img">
+            <div style="font-size:2em;"><b>RAMAKRISHNA MISSION VIDYAPITH</b></div>
+			<div style="font-size:2em;"><b>Chennai-04</b></div>
             <p style="color:red;">(A Branch Center of Ramakrishna Math & Mission, Belur Math, West Bengal)</p>
-            <h2><b>Mylapore, Chennai 600004</b></h2>
         </header>
         <h1 class="h1">Class link</h1>
+		<div class="contain">
                 <div class="link">
-                    <a href="https://us04web.zoom.us/j/79159652190?pwd=U2s0MWFhMkN2bDQraXFRYllPZ2J4QT09" alt="404 not found" target="_blank">Krishnakumar sir</a>
-                    <h3 style="padding-left:10px;" class="h3">(2:00 PM)</h3>
-                    <div class="p">
-                        <p>Moile Computing.</p>
+                    <a href="https://us04web.zoom.us/j/79159652190?pwd=U2s0MWFhMkN2bDQraXFRYllPZ2J4QT09" alt="404 not found" target="_blank">Staff - Krishnakumar sir</a>
+                    <h3 style="padding-left:10px;color:red;" class="h3">Time - (2:00 PM)</h3>
+                    <div>
+                        <p class="p" style="color:brown;">Subject - Mobile Computing.</p>
                     </div>
                 </div>
 
-                <div class="link"><a href="https://us04web.zoom.us/j/8311184976?pwd=VGN4bVVkNEZ0aitxV3JCc3d0V2dJdz09" alt="404 not found" target="_blank">S.Thirumurgan sir</a>
-                    <h3 style="padding-left:10px;" class="h3">(3:00 PM)</h3>
+                <div class="link"><a href="https://us04web.zoom.us/j/8311184976?pwd=VGN4bVVkNEZ0aitxV3JCc3d0V2dJdz09" alt="404 not found" target="_blank">Staff - S.Thirumurgan sir</a>
+                    <h3 style="padding-left:10px;color:red;" class="h3">Time - (3:00 PM)</h3>
                     <div>
-                        <p class="p">Internet Of Things(IoT).</p>
+                        <p class="p" style="color:brown;">Subject - Internet Of Things(IoT).</p>
                     </div>
                 </div>
 
-                <div class="link"><a href="https://us04web.zoom.us/j/4097461964?pwd=MG9pL1VyV0V4bjVTSkZzVjNVM1g3dz09 " alt="404 not found" target="_blank">Sankar sir</a>
-                    <h3 style="padding-left:10px;">(10:00 AM)</h3>
+                <div class="link"><a href="https://us04web.zoom.us/j/8311184976?pwd=VGN4bVVkNEZ0aitxV3JCc3d0V2dJdz09" alt="404 not found" target="_blank">Staff - J.Sekaran sir</a>
+                    <h3 style="padding-left:10px;color:red;" >Time - (4:00 AM), Not For All Day </h3>
                     <div>
-                        <p class="p">Python.</p>
+                        <p class="p" style="color:brown;">Subject - Mini Projects.</p>
+                    </div>
+                </div>
+				
+                <div class="link"><a href="https://us04web.zoom.us/j/4097461964?pwd=MG9pL1VyV0V4bjVTSkZzVjNVM1g3dz09 " alt="404 not found" target="_blank">Staff - Sankar sir</a>
+                    <h3 style="padding-left:10px;color:red;">Time - (10:00 AM)</h3>
+                    <div>
+                        <p class="p" style="color:brown;">Subject - Python.</p>
                     </div>
                 </div>
 
-                <div class="link"><a href="https://us04web.zoom.us/j/7256409391?pwd=NXdDTnZVRzBVNU9jWnhHV2RYNVBJdz09" alt="404 not found" target="_blank">Kannan sir</a>
-                    <h3 style="padding-left:10px;">(5:00 PM)</h3>
+                <div class="link"><a href="https://us04web.zoom.us/j/7256409391?pwd=NXdDTnZVRzBVNU9jWnhHV2RYNVBJdz09" alt="404 not found" target="_blank">Staff - Kannan sir</a>
+                    <h3 style="padding-left:10px;color:red">Time - (5:00 PM)</h3>
                     <div>
-                        <p class="p">Big Data.</p>
+                        <p class="p" style="color:brown;">Subject - Big Data.</p>
                     </div>
                 </div>
+		</div>
     </body>
-   
-    
 </html>
